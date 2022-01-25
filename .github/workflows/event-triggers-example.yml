@@ -19,7 +19,7 @@ jobs:
     steps:
       -
         name: Event
-        run: "Triggered by: $GITHUB_EVENT_NAME"
+        run: "Triggered by: event"
       -
         name: Say Hello
         run: echo "Hello world!"
