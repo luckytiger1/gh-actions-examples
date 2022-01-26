@@ -11,8 +11,6 @@ on:
   pull_request:
     branches:
       - 'develop'
-  schedule:
-    - cron: '* */4 * * *'
 jobs:
   say-hello:
     runs-on: ubuntu-latest
